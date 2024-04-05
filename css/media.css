@@ -12,6 +12,9 @@
   .phone {
     font-size: 20px;
   }
+  .phone::before {
+    top: 1px;
+  }
 
   .header__nav {
     position: absolute;
@@ -108,6 +111,9 @@
 @media (max-width: 480px) {
   .header {
     padding: 15px 20px;
+  }
+  .phone::before {
+    top: -5px;
   }
   .news__img-foto {
     width: 50%;
