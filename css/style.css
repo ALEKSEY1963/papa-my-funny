@@ -84,10 +84,9 @@ body {
 .header.open .header__burger-btn span:nth-child(3) {
   transform: translateY(0) rotate(-45deg);
 }
-.phone{
+.phone {
   position: relative;
 }
-
 
 .phone::before {
   content: "";
@@ -131,7 +130,7 @@ body {
 .choose {
   padding: 50px 0;
   text-align: center;
-  background-color: rgb(217, 233, 233);
+  background-color: rgb(204, 216, 216);
   margin-bottom: 50px;
   border-bottom: 1px dashed rgb(175, 192, 219);
 }
@@ -248,8 +247,7 @@ body {
   width: 100%;
 }
 
-.
-.order__input::placeholder {
+. .order__input::placeholder {
   color: white;
   font-size: 20px;
   font-weight: 100;
