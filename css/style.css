@@ -288,6 +288,12 @@ body {
   outline-offset: 2px;
 }
 .video {
+  max-width: 1280px;
+}
+
+.video__play {
+  width: 100%;
+  height: 400px;
 }
 .footer {
   padding: 50px;
