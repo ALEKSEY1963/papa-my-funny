@@ -9,7 +9,7 @@
   --font-size-h3: 24px;
   --font-size-button: 24px;
   --font-size-p: 20px;
-  --color-accent: rgb(25, 199, 199);
+  --color-accent: rgb(25, 200, 200);
   --color-accent-dark: rgb(6, 68, 68);
   --color-accent-model: rgb(35, 113, 134);
   --transition-duration: 0.8s;
@@ -228,6 +228,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.order {
+  border-bottom: 2px solid #fff;
+}
 .order__title {
   text-align: left;
   color: var(--color-accent-dark);
@@ -247,7 +250,7 @@ body {
   width: 100%;
 }
 
-. .order__input::placeholder {
+.order__input::placeholder {
   color: white;
   font-size: 20px;
   font-weight: 100;
@@ -283,6 +286,8 @@ body {
 .order__btn:focus {
   outline: rgb(174, 229, 231) 1px solid;
   outline-offset: 2px;
+}
+.video {
 }
 .footer {
   padding: 50px;
